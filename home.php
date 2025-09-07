@@ -55,33 +55,32 @@
       transition:.2s;
     }
     .btn:hover{background:#2563eb;}
-    .back{
+    .topnav{
       position:absolute;
       top:20px;
       left:20px;
     }
-    .back-btn{
-      display:inline-block;
-      padding:10px 18px;
-      background:linear-gradient(135deg,#3b82f6,#2563eb);
-      color:#fff;
-      font-weight:600;
-      border-radius:8px;
+    .logo{
+      width:44px;
+      height:44px;
+      border-radius:12px;
+      background:linear-gradient(135deg,#60a5fa,#22d3ee);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      box-shadow:0 4px 12px rgba(0,0,0,.4);
       text-decoration:none;
-      font-size:14px;
-      transition:all .2s;
-      box-shadow:0 4px 10px rgba(0,0,0,.4);
     }
-    .back-btn:hover{
-      background:linear-gradient(135deg,#2563eb,#1d4ed8);
-      transform:translateY(-2px);
-      box-shadow:0 6px 14px rgba(0,0,0,.5);
+    .logo span{
+      font-size:22px;
+      font-weight:800;
+      color:#0b1220;
     }
   </style>
 </head>
 <body>
-  <div class="back">
-    <a href="index.php" class="back-btn">← Kembali ke Halaman Utama</a>
+  <div class="topnav">
+    <a href="index.php" class="logo"><span>Σ</span></a>
   </div>
 
   <div class="container">

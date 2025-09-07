@@ -6,11 +6,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:#0f172a;color:#e2e8f0;position:relative;min-height:100vh}
-.wrap{max-width:900px;margin:0 auto;padding:28px}
-.back{position:absolute;top:20px;left:20px}
+body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:#0f172a;color:#e2e8f0;position:relative;min-height:100vh;padding-top:100px}
+.topnav{position:fixed;top:20px;left:20px;display:flex;gap:12px;align-items:center;z-index:50}
+.logo{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,#60a5fa,#22d3ee);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,.4);text-decoration:none}
+.logo span{font-size:22px;font-weight:800;color:#0b1220}
 .back-btn{display:inline-block;padding:10px 18px;background:linear-gradient(135deg,#3b82f6,#2563eb);color:#fff;font-weight:600;border-radius:8px;text-decoration:none;font-size:14px;transition:all .2s;box-shadow:0 4px 10px rgba(0,0,0,.4)}
 .back-btn:hover{background:linear-gradient(135deg,#2563eb,#1d4ed8);transform:translateY(-2px);box-shadow:0 6px 14px rgba(0,0,0,.5)}
+.wrap{max-width:900px;margin:0 auto;padding:28px}
 .card{background:#111827;border:1px solid #1f2a44;border-radius:14px;padding:18px;box-shadow:0 6px 18px rgba(0,0,0,.45);margin-bottom:20px}
 .card h2{margin:0 0 8px;font-size:20px;font-weight:700}
 .card p{margin:8px 0;opacity:.9;line-height:1.6}
@@ -26,8 +28,9 @@ details summary{cursor:pointer;font-weight:600}
 </style>
 </head>
 <body>
-<div class="back">
-  <a href="home.php" class="back-btn">← Kembali ke Home</a>
+<div class="topnav">
+  <a href="index.php" class="logo"><span>Σ</span></a>
+  <a href="home.php" class="back-btn">← Kembali ke Halaman Utama</a>
 </div>
 
 <div class="wrap">
