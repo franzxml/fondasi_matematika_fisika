@@ -39,18 +39,9 @@
       box-shadow:0 6px 18px rgba(0,0,0,.4);
       transition:.2s;
     }
-    .card:hover{
-      transform:translateY(-4px);
-    }
-    .card h2{
-      margin:0 0 12px 0;
-      font-size:20px;
-    }
-    .card p{
-      opacity:.8;
-      font-size:14px;
-      margin-bottom:16px;
-    }
+    .card:hover{transform:translateY(-4px);}
+    .card h2{margin:0 0 12px;font-size:20px;}
+    .card p{opacity:.8;font-size:14px;margin-bottom:16px;}
     .btn{
       display:inline-block;
       padding:10px 20px;
@@ -61,39 +52,27 @@
       text-decoration:none;
       transition:.2s;
     }
-    .btn:hover{
-      background:#2563eb;
-    }
-    .back{
-      display:block;
-      margin:0 auto 24px auto;
-      text-align:center;
-    }
-    .back a{
-      font-size:14px;
-      color:#94a3b8;
-      text-decoration:none;
-    }
-    .back a:hover{
-      text-decoration:underline;
-    }
+    .btn:hover{background:#2563eb;}
+    .back{display:block;margin:0 auto 24px auto;text-align:center;}
+    .back a{font-size:14px;color:#94a3b8;text-decoration:none;}
+    .back a:hover{text-decoration:underline;}
   </style>
 </head>
 <body>
   <div class="container">
     <div class="back">
-      <a href="index.php">← Kembali ke halaman awal.</a>
+      <a href="index.php">← Kembali ke Landing Page</a>
     </div>
     <h1>Modul Interaktif</h1>
     <div class="grid">
       <div class="card">
         <h2>Aljabar Dasar</h2>
-        <p>Latihan persamaan linear satu variabel dengan langkah penyelesaian interaktif.</p>
-        <a href="aljabar_dasar.php" class="btn">Mulai</a>
+        <p>Pelajari materi dasar persamaan linear, lalu uji kemampuanmu dengan soal interaktif.</p>
+        <a href="pembelajaran_aljabar_dasar.php" class="btn">Mulai Belajar</a>
       </div>
       <div class="card">
         <h2>Modul Lain</h2>
-        <p>Placeholder untuk modul lain (misalnya Trigonometri, Vektor, Fisika Dasar, dll).</p>
+        <p>Segera (misalnya Trigonometri, Vektor, Fisika Dasar, dll).</p>
         <a href="#" class="btn">Segera</a>
       </div>
     </div>
