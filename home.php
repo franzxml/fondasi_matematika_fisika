@@ -5,6 +5,7 @@
   <title>Home | Fondasi Matematika Fisika</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
+    *{box-sizing:border-box}
     body{
       margin:0;
       font-family:Inter,system-ui,Arial,sans-serif;
@@ -15,6 +16,7 @@
       justify-content:center;
       align-items:center;
       padding:24px;
+      position:relative;
     }
     .container{
       max-width:900px;
@@ -54,12 +56,13 @@
     }
     .btn:hover{background:#2563eb;}
     .back{
-      margin-bottom:24px;
-      text-align:left;
+      position:absolute;
+      top:20px;
+      left:20px;
     }
     .back-btn{
       display:inline-block;
-      padding:10px 16px;
+      padding:10px 18px;
       background:linear-gradient(135deg,#3b82f6,#2563eb);
       color:#fff;
       font-weight:600;
@@ -77,10 +80,11 @@
   </style>
 </head>
 <body>
+  <div class="back">
+    <a href="index.php" class="back-btn">← Kembali ke Halaman Utama</a>
+  </div>
+
   <div class="container">
-    <div class="back">
-      <a href="index.php" class="back-btn">← Kembali ke Halaman Utama</a>
-    </div>
     <h1>Modul Interaktif</h1>
     <div class="grid">
       <div class="card">
