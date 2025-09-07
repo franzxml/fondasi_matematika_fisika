@@ -53,15 +53,33 @@
       transition:.2s;
     }
     .btn:hover{background:#2563eb;}
-    .back{display:block;margin:0 auto 24px auto;text-align:center;}
-    .back a{font-size:14px;color:#94a3b8;text-decoration:none;}
-    .back a:hover{text-decoration:underline;}
+    .back{
+      margin-bottom:24px;
+      text-align:left;
+    }
+    .back-btn{
+      display:inline-block;
+      padding:10px 16px;
+      background:linear-gradient(135deg,#3b82f6,#2563eb);
+      color:#fff;
+      font-weight:600;
+      border-radius:8px;
+      text-decoration:none;
+      font-size:14px;
+      transition:all .2s;
+      box-shadow:0 4px 10px rgba(0,0,0,.4);
+    }
+    .back-btn:hover{
+      background:linear-gradient(135deg,#2563eb,#1d4ed8);
+      transform:translateY(-2px);
+      box-shadow:0 6px 14px rgba(0,0,0,.5);
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="back">
-      <a href="index.php">← Kembali ke Landing Page</a>
+      <a href="index.php" class="back-btn">← Kembali ke Halaman Utama</a>
     </div>
     <h1>Modul Interaktif</h1>
     <div class="grid">
@@ -72,7 +90,7 @@
       </div>
       <div class="card">
         <h2>Modul Lain</h2>
-        <p>Segera (misalnya Trigonometri, Vektor, Fisika Dasar, dll).</p>
+        <p>Placeholder untuk modul lain (misalnya Trigonometri, Vektor, Fisika Dasar, dll).</p>
         <a href="#" class="btn">Segera</a>
       </div>
     </div>
