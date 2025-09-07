@@ -18,7 +18,7 @@ body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:#0f172a;co
 .steps{margin-top:10px;padding:12px;border:1px dashed #334155;border-radius:12px;background:#0b1220}
 details{background:#0b1220;border:1px solid #334155;border-radius:12px;padding:12px;margin-top:10px}
 details summary{cursor:pointer;font-weight:600}
-.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;justify-content:center}
 .btn{border:0;border-radius:12px;padding:12px 18px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
 .primary{background:#3b82f6;color:#fff}
 .secondary{background:#374151;color:#e5e7eb}
@@ -34,10 +34,6 @@ details summary{cursor:pointer;font-weight:600}
   <div class="card">
     <h2>Pengantar Aljabar Dasar</h2>
     <p>Variabel adalah simbol seperti <span class="eq">x</span> yang mewakili bilangan. Persamaan linear satu variabel biasanya berbentuk <span class="eq">ax + b = c</span>. Untuk menyelesaikannya, kita gunakan operasi kebalikan di kedua sisi persamaan.</p>
-    <div class="cta">
-      <a href="aljabar_dasar.php?level=dasar" class="btn primary">Lanjut ke Tes</a>
-      <a href="aljabar_dasar.php?level=menengah" class="btn secondary">Tes Level Menengah</a>
-    </div>
   </div>
 
   <div class="card">
@@ -88,6 +84,16 @@ details summary{cursor:pointer;font-weight:600}
         </ol>
       </div>
     </details>
+  </div>
+
+  <div class="card">
+    <h2>Siap Mencoba?</h2>
+    <p>Pilih level latihan dan mulai mengerjakan soal interaktif dengan hint langkah penyelesaian.</p>
+    <div class="cta">
+      <a href="aljabar_dasar.php?level=dasar" class="btn primary">Mulai Tes Level Dasar</a>
+      <a href="aljabar_dasar.php?level=menengah" class="btn secondary">Tes Level Menengah</a>
+      <a href="aljabar_dasar.php?level=campuran" class="btn secondary">Tes Campuran</a>
+    </div>
   </div>
 
   <div class="footer">Fondasi Matematika Fisika · Modul Pembelajaran Aljabar Dasar</div>
