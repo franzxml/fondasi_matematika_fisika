@@ -1,5 +1,5 @@
 ---
-title: pemrograman_berorientasi_objek
+title: fondasi_matematika_fisika
 emoji: 🐘
 colorFrom: indigo
 colorTo: blue
@@ -9,7 +9,7 @@ pinned: false
 
 # OOP PHP Space (Hugging Face)
 
-Repositori Tugas Pemrograman Berorientasi Objek
+Repositori Fondasi Matematika Fisika
 
 ## Run lokal
 ```bash
