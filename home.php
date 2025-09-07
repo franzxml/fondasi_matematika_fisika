@@ -82,7 +82,7 @@
 <body>
   <div class="container">
     <div class="back">
-      <a href="landing_page.php">← Kembali ke Landing Page</a>
+      <a href="index.php">← Kembali ke halaman awal.</a>
     </div>
     <h1>Modul Interaktif</h1>
     <div class="grid">

@@ -72,7 +72,7 @@
     <div class="logo"><span>Σ</span></div>
     <h1>Selamat Datang</h1>
     <p>
-      Selamat datang di <b>landing page</b> modul pembelajaran 
+      Selamat datang di modul pembelajaran 
       <b>Fondasi Matematika Fisika Dasar</b>.  
       Di sini kamu akan menemukan berbagai modul interaktif untuk memahami konsep-konsep fundamental dengan cara yang menyenangkan dan praktis.
     </p>
